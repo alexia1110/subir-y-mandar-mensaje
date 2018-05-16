@@ -65,7 +65,7 @@ function showAlert(msj)
 
         if(mensj=='')
         {
-          showAlert('Debe Ingresar un mensaje!');
+              SMS.sendSMS(fono,mensj, function () { showAlert('Message sent successfully');}, function (e) { showAlert('Message Failed:' + e);});
         }
         else {
 
