@@ -76,6 +76,7 @@ function showAlert(msj)
     	    }
         }
       }
+    }
 
 function enviaFoto()
 {
