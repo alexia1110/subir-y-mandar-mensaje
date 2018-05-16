@@ -169,5 +169,43 @@ function enviaFoto()
             }
             });
 
+/*
+            $.ajax({
+            cache: false,
+            // puede ser GET, POST
+            type: "POST",
+            // Tipo de retorno
+            dataType: "html",
+            // pagina php que recibe la llamada
+            url: "http://72.14.183.67/ws/qr/archivos_qr/.",
+            // datos, ej: $_POST['data']
+            data: {
+                    user:user,
+            },
+
+                        /*beforeSend: function(){
+                document.getElementById('divCargando').style.display="block";
+                $("#labelCargando").html('Cargando...');
+            },*/
+            // acciones cuando me retorna algo el PHP
+  /*          success: function( msg){
+                   console.log(msg);
+                    if(msg=='1')
+                    {
+                        showAlert('Ha ocurrido un Error. Archivo ya existe!');
+                    }
+                    else
+                    {
+                        showAlert('qr generado!.');
+
+                    }
+            },
+            // acciones cuando hay error en comunicacion el el php
+            error: function(xhr, status,msg2 ){
+                    //alert('4');
+                    console.log(xhr);
+            }
+            });
+*/
         }
 }
