@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "subirfoto.cfloress.unab"
+    version   = "1.0.0">
+
+<name>Demo Unab, Subir Foto</name>
+
+<description>
+Aplicacion de Ejemplo para Subir foto base 64.
+</description>
+
+<author href="http://www.unab.cl" email="cfloressapiain@gmail.com">
+Claudio Andres Flores Sapiain
+</author>
+
+<preference name="target-device" value="universal" />
+<preference name="orientation" value="both" />
+<preference name="exit-on-suspend" value="true" />
+<preference name="fullscreen" value="false" />
+
+<icon src="icons/ios/icon.png" width="57" height="57" />
+<icon src="icons/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
+<icon src="icons/ios/icon_at_2x.png" width="114" height="114" />
+
+<icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+<icon src="icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+<icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+<icon src="icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+
+<icon src="icons/winphone/icon.png" gap:platform="winphone" />
+<icon src="icons/winphone/tileicon.png" gap:platform="winphone" gap:role="background" />
+
+<gap:splash src="splashes/ios/Default.png" width="320" height="480" />
+<gap:splash src="splashes/ios/Default_at_2x.png" width="640" height="960" />
+<gap:splash src="splashes/ios/Default_iphone5.png" width="640" height="1136" />
+<gap:splash src="splashes/ios/splash_ipad_Landscape.png" width="1024" height="768" />
+<gap:splash src="splashes/ios/splash_ipad_Portrait.png" width="768" height="1024" />
+
+<gap:splash src="splashes/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="splashes/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="splashes/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="splashes/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+<plugin name="cordova-plugin-camera" spec="~2.4.1" />
+<plugin name="cordova-plugin-splashscreen" spec="~4.0.3" />
+<plugin name="cordova-plugin-dialogs" spec="~1.3.3" />
+<plugin name="cordova-plugin-file" spec="~4.3.3" />
+<plugin name="cordova-plugin-file-transfer" spec="~1.6.3" />
+<plugin name="cordova-plugin-whitelist" spec="~1.3.3" />
+<plugin name="cordova-plugin-sms" spec="1.0.5" />
+<access origin="http://72.14.183.67/ws/*" />
+</widget>
